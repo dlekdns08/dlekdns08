@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 140" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Slithering snake">
+  <title>Slithering snake</title>
+  <defs>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="0.4"/>
+    </filter>
+  </defs>
+  <!-- body (back side highlights then circles) -->
+  <circle cx="30.0" cy="70" r="3.0" fill="#1b5e20">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-0.000s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="62.4" cy="70" r="4.6" fill="#1e6122">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-0.120s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="94.8" cy="70" r="6.2" fill="#216525">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-0.240s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="127.2" cy="70" r="7.8" fill="#246928">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-0.360s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="159.6" cy="70" r="9.0" fill="#276c2b">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-0.480s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="192.0" cy="70" r="9.2" fill="#2a702e">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-0.600s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="224.4" cy="70" r="9.4" fill="#2d7431">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-0.720s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="256.8" cy="70" r="9.5" fill="#307834">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-0.840s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="289.2" cy="70" r="9.7" fill="#337b37">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-0.960s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="321.6" cy="70" r="9.8" fill="#367f3a">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-1.080s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="354.0" cy="70" r="10.0" fill="#39833d">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-1.200s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="386.4" cy="70" r="10.2" fill="#3c8640">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-1.320s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="418.8" cy="70" r="10.3" fill="#3f8a43">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-1.440s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="451.2" cy="70" r="10.5" fill="#428e46">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-1.560s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="483.6" cy="70" r="10.6" fill="#459249">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-1.680s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="516.0" cy="70" r="10.8" fill="#48954c">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-1.800s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="548.4" cy="70" r="11.0" fill="#4b994f">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-1.920s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="580.8" cy="70" r="11.1" fill="#4e9d52">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-2.040s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="613.2" cy="70" r="11.3" fill="#51a055">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-2.160s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="645.6" cy="70" r="11.4" fill="#54a458">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-2.280s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="678.0" cy="70" r="11.6" fill="#57a85b">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-2.400s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="710.4" cy="70" r="11.8" fill="#5aac5e">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-2.520s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="742.8" cy="70" r="11.9" fill="#5daf61">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-2.640s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="775.2" cy="70" r="12.1" fill="#60b364">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-2.760s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="807.6" cy="70" r="12.2" fill="#63b767">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-2.880s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="840.0" cy="70" r="12.4" fill="#66bb6a">
+    <animate attributeName="cy" values="48;92;48" dur="3.0s" begin="-3.000s" repeatCount="indefinite"/>
+  </circle>
+  <!-- subtle scale highlights -->
+  <circle cx="30.0" cy="68.8" r="1.0" fill="#a5d6a7" opacity="0.35">
+    <animate attributeName="cy" values="46.8;90.8;46.8" dur="3.0s" begin="-0.000s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="94.8" cy="67.5" r="2.2" fill="#a5d6a7" opacity="0.35">
+    <animate attributeName="cy" values="45.5;89.5;45.5" dur="3.0s" begin="-0.240s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="159.6" cy="66.4" r="3.2" fill="#a5d6a7" opacity="0.35">
+    <animate attributeName="cy" values="44.4;88.4;44.4" dur="3.0s" begin="-0.480s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="224.4" cy="66.3" r="3.3" fill="#a5d6a7" opacity="0.35">
+    <animate attributeName="cy" values="44.3;88.3;44.3" dur="3.0s" begin="-0.720s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="289.2" cy="66.1" r="3.4" fill="#a5d6a7" opacity="0.35">
+    <animate attributeName="cy" values="44.1;88.1;44.1" dur="3.0s" begin="-0.960s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="354.0" cy="66.0" r="3.5" fill="#a5d6a7" opacity="0.35">
+    <animate attributeName="cy" values="44.0;88.0;44.0" dur="3.0s" begin="-1.200s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="418.8" cy="65.9" r="3.6" fill="#a5d6a7" opacity="0.35">
+    <animate attributeName="cy" values="43.9;87.9;43.9" dur="3.0s" begin="-1.440s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="483.6" cy="65.7" r="3.7" fill="#a5d6a7" opacity="0.35">
+    <animate attributeName="cy" values="43.7;87.7;43.7" dur="3.0s" begin="-1.680s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="548.4" cy="65.6" r="3.8" fill="#a5d6a7" opacity="0.35">
+    <animate attributeName="cy" values="43.6;87.6;43.6" dur="3.0s" begin="-1.920s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="613.2" cy="65.5" r="3.9" fill="#a5d6a7" opacity="0.35">
+    <animate attributeName="cy" values="43.5;87.5;43.5" dur="3.0s" begin="-2.160s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="678.0" cy="65.4" r="4.1" fill="#a5d6a7" opacity="0.35">
+    <animate attributeName="cy" values="43.4;87.4;43.4" dur="3.0s" begin="-2.400s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="742.8" cy="65.2" r="4.2" fill="#a5d6a7" opacity="0.35">
+    <animate attributeName="cy" values="43.2;87.2;43.2" dur="3.0s" begin="-2.640s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="807.6" cy="65.1" r="4.3" fill="#a5d6a7" opacity="0.35">
+    <animate attributeName="cy" values="43.1;87.1;43.1" dur="3.0s" begin="-2.880s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Head group (moves together with eyes + tongue) -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 -22; 0 22; 0 -22"
+      dur="3.0s" begin="-3.000s" repeatCount="indefinite"/>
+    <!-- head shape -->
+    <ellipse cx="862" cy="70" rx="18" ry="14" fill="#1b5e20"/>
+    <ellipse cx="862" cy="68" rx="16" ry="12" fill="#388e3c"/>
+    <!-- eye -->
+    <circle cx="867" cy="66" r="3" fill="#fffde7"/>
+    <circle cx="868" cy="66" r="1.6" fill="#000"/>
+    <!-- nostril -->
+    <circle cx="876" cy="69" r="0.8" fill="#000" opacity="0.6"/>
+    <!-- forked tongue (flicks) -->
+    <g stroke="#e53935" stroke-width="1.6" fill="none" stroke-linecap="round">
+      <path d="M 879 71 Q 886 71 892 67">
+        <animate attributeName="d"
+          values="M 879 71 Q 884 71 888 68;
+                  M 879 71 Q 888 71 896 66;
+                  M 879 71 Q 884 71 888 68"
+          dur="0.6s" repeatCount="indefinite"/>
+      </path>
+      <path d="M 879 71 Q 886 71 892 75">
+        <animate attributeName="d"
+          values="M 879 71 Q 884 71 888 74;
+                  M 879 71 Q 888 71 896 76;
+                  M 879 71 Q 884 71 888 74"
+          dur="0.6s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+</svg>
