@@ -1,17 +1,38 @@
 name: Generate Snake
+
+# ~ .github/workflows/snake.yml 에 저장하세요
+# 레포: dlekdns08/dlekdns08 (프로필 레포)
+# 결과물은 'output' 브랜치에 푸시되며, README에서는
+# https://raw.githubusercontent.com/dlekdns08/dlekdns08/output/<파일명> 로 불러옵니다.
+
 on:
   schedule:
-    - cron: "0 */24 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *"   # 12시간마다 갱신
+  workflow_dispatch:           # 수동 실행
+  push:
+    branches:
+      - main
+
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+
     steps:
-      - uses: Platane/snk/svg-only@v3
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: dlekdns08
-          outputs: dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-snake-green.svg?color_snake=%232e7d32&color_dots=%23ebedf0,%23c8e6c9,%2381c784,%2343a047,%231b5e20
+            dist/github-snake-green-dark.svg?palette=github-dark&color_snake=%2366bb6a&color_dots=%230d1117,%23033a16,%23196c2e,%232ea043,%2356d364
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
