@@ -91,7 +91,7 @@ me.say_hi()
 ## 📫 Connect With Me
 
 <p align="center">
-  <a href="mailto:your-email@example.com">
+  <a href="mailto:dlekdns08@example.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://github.com/dlekdns08">
